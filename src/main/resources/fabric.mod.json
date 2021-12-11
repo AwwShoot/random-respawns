@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "random_respawns",
+  "version": "${1.0}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Random Respawns",
+  "description": "Causes the player to respawn in a totally random position on death",
   "authors": [
-    "Me!"
+    "aww_shoot#8649"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/AwwShoot",
+    "sources": "https://github.com/AwwShoot/random-respawns"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/random_respawns/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.random_respawns.RRCore"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "random_respawns.mixins.json"
   ],
 
   "depends": {
