@@ -21,7 +21,7 @@ public class RRCore implements ModInitializer {
 		EntitySleepEvents.ALLOW_SETTING_SPAWN.register((player, sleepingPos) -> false);
 		LOGGER.info("test");
 
-		ServerPlayerEvents.AFTER_RESPAWN.register(((oldPlayer, newPlayer, alive) -> newPlayer.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 600))
+		ServerPlayerEvents.AFTER_RESPAWN.register(((oldPlayer, newPlayer, alive) -> newPlayer.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 1200))
 			));
 	}
 }

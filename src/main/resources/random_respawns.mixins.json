@@ -6,7 +6,8 @@
   "mixins": [
 
     "RespawnAnchorBlockMixin",
-    "PlayerEntityMixin"
+    "PlayerEntityMixin",
+    "ServerPlayerEntityMixin"
   ],
   "client": [
 
