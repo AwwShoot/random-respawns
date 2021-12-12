@@ -4,9 +4,12 @@
   "package": "net.fabricmc.random_respawns.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+
+    "RespawnAnchorBlockMixin",
+    "PlayerEntityMixin"
   ],
   "client": [
-    "ServerPlayerEntityMixin"
+
   ],
   "injectors": {
     "defaultRequire": 1
